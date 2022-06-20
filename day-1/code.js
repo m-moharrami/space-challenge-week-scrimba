@@ -41,3 +41,16 @@ const planets = [
     "color": "blue"
     }
 ];
+
+function render(planet){
+    solarSystem.innerHTML += 
+        `<span class="${planet}" style="width: ${planet.diameter/1000}px;
+        height: ${planet.diameter/1000}px;
+        border-radius: 50%;
+        margin: 1em;
+        background: conic-gradient(black 0deg 180deg, var(--${planet.color}) 180deg 360deg);">
+        </span>
+        `;
+}
+
+planets.forEach(render);
