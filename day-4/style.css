@@ -24,3 +24,22 @@ body {
     font-size: 1.25em;
     text-transform: uppercase;
 }
+
+img {
+    margin-right: .2em;
+    height: 1em;
+    width: auto;
+    display: inline-block;
+}
+
+span {
+    font-size: x-large;
+}
+
+p {
+    text-align: center;
+}
+
+.bold {
+    font-size: 1.5em;
+}
